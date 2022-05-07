@@ -3,6 +3,9 @@
 /***** CSS RESET *****/
 @import "./reset.css";
 
+/***** MEDIA QUERIES *****/
+@import "./media-queries.css";
+
 /***** CUSTOM PROPERTIES *****/
 :root {
   /* Colors */
@@ -65,7 +68,7 @@ body {
   opacity: 0;
   top: 50px;
   transition: all 0.5s ease-in;
-  width: 100vw;
+  width: 100%;
 }
 
 .masthead__nav > li {
@@ -85,7 +88,6 @@ body {
 }
 
 .masthead__nav--show {
-  left: 0;
   right: 0;
   opacity: 1;
 }
