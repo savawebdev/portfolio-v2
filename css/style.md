@@ -24,4 +24,7 @@ A collection of everything that i use to style the website
 
 ### Sizes
 
-- **mobile brand:** `1.4rem`
+#### Mobile
+
+- **brand:** `1.4rem`
+- **menu:** `2rem`
