@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+/***** CSS RESET *****/
+@import "./reset.css";
+
+/***** CUSTOM PROPERTIES *****/
+:root {
+  /* Colors */
+  --clr-bg-color: #312f2f;
+  --clr-light: #f6e8ea;
+  --clr-rose: #ef626c;
+  --clr-black: #22181c;
+  --clr-linkedin-blue: #0072b1;
+  --clr-github-green: #6cc644;
+}
