@@ -8,7 +8,8 @@ Personal and portfolio website.
 - CSS
 - JS
 
-## Fonts and Colors Sources
+## Resources
 
 - [Google Fonts](https://fonts.google.com/)
 - [Coolors](https://coolors.co/)
+- [CSS Reset](https://meyerweb.com/eric/tools/css/reset/)

@@ -23,3 +23,5 @@ A collection of everything that i use to style the website
 - Lato (sans-serif)
 
 ### Sizes
+
+- **mobile brand:** `1.4rem`
