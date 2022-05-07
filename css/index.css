@@ -18,6 +18,7 @@
 body {
   background: var(--clr-bg-color);
   font-family: "Lato", sans-serif;
+  position: relative;
 }
 
 /***** HEADER *****/
@@ -26,8 +27,13 @@ body {
   display: flex;
   height: 50px;
   justify-content: space-between;
+  left: 0;
+  margin: 0 auto;
   max-width: 1400px;
-  padding: 20px;
+  padding-inline: 20px;
+  position: fixed;
+  right: 0;
+  width: 90%;
 }
 
 .masthead__brand {
@@ -53,7 +59,8 @@ body {
 .hero {
   align-items: center;
   display: flex;
-  height: calc(100vh - 50px);
+  flex-direction: column;
+  height: 100vh;
   justify-content: center;
   width: 100%;
 }
@@ -67,4 +74,15 @@ body {
 .hero__title > span {
   color: var(--clr-rose);
   display: block;
+}
+
+.hero__btn {
+  background: none;
+  border: 2px solid var(--clr-light);
+  border-radius: 5px;
+  color: var(--clr-light);
+  font-weight: bold;
+  height: 40px;
+  margin-top: 10px;
+  width: 150px;
 }

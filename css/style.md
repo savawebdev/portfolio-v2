@@ -28,3 +28,4 @@ A collection of everything that i use to style the website
 
 - **brand:** `1.4rem`
 - **menu:** `2rem`
+- **hero title:** `2.1rem`
