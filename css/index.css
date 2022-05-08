@@ -41,13 +41,15 @@ body {
 
 .aboutme__content,
 .masthead__content,
-.myskills__content {
+.myskills__content,
+.projects__content {
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .aboutme__content,
-.myskills__content {
+.myskills__content,
+.projects__content {
   padding: 40px 20px;
 }
 
@@ -73,17 +75,6 @@ body {
 }
 
 @media screen and (min-width: 769px) {
-  /* .aboutme__content > div {
-    align-items: center;
-    flex-direction: row;
-    gap: 60px;
-    justify-content: center;
-  }
-
-  .aboutme__img {
-    margin: 0;
-  } */
-
   .aboutme__text {
     font-size: 1.1rem;
     margin-inline: auto;
@@ -110,6 +101,12 @@ body {
 
   .myskills__grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .projects__grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: fit-content;
+    margin-inline: auto;
   }
 }
 
