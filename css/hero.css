@@ -8,25 +8,60 @@
 }
 
 .hero {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
 }
 
 .hero__btn {
+  background: none;
+  border: 3px solid var(--clr-light);
+  border-radius: 10px;
+  color: var(--clr-light);
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 50px;
+  margin-top: 20px;
+  transition: all 0.2s ease-in;
+  width: 130px;
 }
 
 .hero__btn:active {
+  background-color: var(--clr-orange);
+  border: none;
 }
 
 .hero__title {
+  color: var(--clr-light);
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .hero__title > span {
+  color: var(--clr-orange);
 }
 
 .hero__socials {
+  bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
 }
 
 .hero__social-box {
+  align-items: center;
+  color: var(--clr-black);
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  text-decoration: none;
+  width: 40px;
 }
 
 .linked-in {
+  background-color: var(--clr-linkedin-blue);
 }

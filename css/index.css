@@ -46,6 +46,9 @@ body {
 
 /***** MEDIA QUERIES *****/
 @media screen and (min-width: 481px) {
+  .hero__title {
+    font-size: 2.6rem;
+  }
   .masthead__brand {
     font-size: 1.6rem;
   }
@@ -59,6 +62,7 @@ body {
   .masthead__nav {
     background: none;
     left: unset;
+    opacity: 1;
     position: unset;
     top: unset;
     max-width: fit-content;
@@ -71,5 +75,20 @@ body {
 
   .masthead__nav-btn {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .hero__social-box {
+    height: 60px;
+    width: 60px;
+  }
+
+  .masthead__brand {
+    font-size: 1.8rem;
+  }
+
+  .masthead__nav-link {
+    font-size: 1.4rem;
   }
 }
