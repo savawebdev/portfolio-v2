@@ -13,43 +13,42 @@
   flex-direction: column;
   height: 100vh;
   justify-content: center;
-  position: relative;
   width: 100%;
 }
 
 .hero__btn {
   background: none;
-  border: 2px solid var(--clr-light);
-  border-radius: 5px;
+  border: 3px solid var(--clr-light);
+  border-radius: 10px;
   color: var(--clr-light);
+  font-size: 1.2rem;
   font-weight: bold;
-  height: 40px;
-  margin-top: 10px;
+  height: 50px;
+  margin-top: 20px;
   transition: all 0.2s ease-in;
-  width: 150px;
+  width: 130px;
 }
 
 .hero__btn:active {
-  background: var(--clr-orange);
+  background-color: var(--clr-orange);
   border: none;
 }
 
 .hero__title {
   color: var(--clr-light);
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
 .hero__title > span {
   color: var(--clr-orange);
-  display: block;
 }
 
 .hero__socials {
+  bottom: 50px;
   display: flex;
   flex-direction: column;
   position: absolute;
-  bottom: 50px;
   right: 0;
 }
 
@@ -64,5 +63,5 @@
 }
 
 .linked-in {
-  background: var(--clr-linkedin-blue);
+  background-color: var(--clr-linkedin-blue);
 }
