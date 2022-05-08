@@ -103,4 +103,10 @@ body {
   .masthead__nav-link {
     color: var(--clr-light);
   }
+
+  .myskills__grid,
+  .projects__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
