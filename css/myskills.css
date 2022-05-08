@@ -1,0 +1,52 @@
+/***** MY SKILLS *****/
+.myskills__languages,
+.myskills__frameworks {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-block: 50px;
+}
+
+.myskills__languages > i,
+.myskills__frameworks > i {
+  color: var(--clr-orange);
+}
+
+.myskills__bootstrap {
+  color: #563d7c;
+}
+
+.myskills__css {
+  color: #264de4;
+}
+
+.myskills__html {
+  color: #e34c26;
+}
+
+.myskills__js {
+  color: #f0db4f;
+}
+
+.myskills__react {
+  color: #61dbfb;
+}
+
+.myskills__skill {
+  align-items: center;
+  display: flex;
+  font-weight: bold;
+  gap: 5px;
+  margin-block: 5px;
+}
+
+.myskills__tailwind {
+  width: 20px;
+  height: 20px;
+}
+
+.myskills__title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 15px 0;
+}
