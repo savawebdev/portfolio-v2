@@ -55,7 +55,12 @@
   padding-block: 10px;
   text-align: center;
   text-decoration: none;
+  transition: opacity 0.2s ease-in;
   width: 100%;
+}
+
+.masthead__nav-link:hover {
+  opacity: 0.7;
 }
 
 .masthead__nav--show {
