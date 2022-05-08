@@ -16,7 +16,7 @@
 
 /***** UNIVERSAL STYLES *****/
 body {
-  background: var(--clr-bg-color);
+  background: var(--clr-black);
   font-family: "Lato", sans-serif;
   position: relative;
 }
@@ -71,14 +71,14 @@ body {
 .masthead__nav > li {
   align-items: center;
   background: var(--clr-light);
-  border-bottom: 1px solid var(--clr-bg-color);
+  border-bottom: 1px solid var(--clr-black);
   display: flex;
   height: 30px;
   justify-content: center;
 }
 
 .masthead__nav-link {
-  color: var(--clr-bg-color);
+  color: var(--clr-black);
   font-size: 1rem;
   font-weight: bold;
   text-decoration: none;
@@ -125,6 +125,34 @@ body {
 .hero__btn:active {
   background: var(--clr-rose);
   border: none;
+}
+
+.hero__socials {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+}
+
+.hero__social-box {
+  align-items: center;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  width: 40px;
+}
+
+.linked-in {
+  background: var(--clr-linkedin-blue);
+}
+
+.github {
+  background: var(--clr-github-green);
+}
+
+.email {
+  background: var(--clr-rose);
 }
 
 /***** MEDIA QUERIES *****/
