@@ -3,9 +3,6 @@
 /***** CSS RESET *****/
 @import "./reset.css";
 
-/***** MEDIA QUERIES *****/
-@import "./media-queries.css";
-
 /***** CUSTOM PROPERTIES *****/
 :root {
   /* Colors */
@@ -104,7 +101,7 @@ body {
 
 .hero__title {
   color: var(--clr-light);
-  font-size: 2.1rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
@@ -128,4 +125,49 @@ body {
 .hero__btn:active {
   background: var(--clr-rose);
   border: none;
+}
+
+/***** MEDIA QUERIES *****/
+@media screen and (min-width: 481px) {
+  .masthead__brand {
+    font-size: 1.6rem;
+  }
+
+  .masthead__nav-link {
+    font-size: 1.2rem;
+  }
+
+  .hero__title > span {
+    display: inline;
+  }
+
+  .hero__btn {
+    width: 200px;
+    height: 50px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .masthead__nav-btn {
+    display: none;
+  }
+
+  .masthead__nav {
+    display: flex;
+    gap: 25px;
+    opacity: 1;
+    position: unset;
+    right: unset;
+    top: unset;
+    transition: unset;
+    width: auto;
+  }
+
+  .masthead__nav > li {
+    background: none;
+  }
+
+  .masthead__nav-link {
+    color: var(--clr-light);
+  }
 }
