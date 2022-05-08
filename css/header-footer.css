@@ -1,6 +1,7 @@
 /***** HEADER *****/
 .masthead {
   align-items: center;
+  background-color: var(--clr-black);
   display: flex;
   height: 50px;
   justify-content: space-between;
