@@ -36,77 +36,13 @@
 /***** UNIVERSAL STYLES *****/
 body {
   font-family: "Lato", sans-serif;
-  position: relative;
-}
-
-.aboutme,
-.myskills,
-.projects {
-  padding: 20px;
-}
-
-.hidden {
-  display: none;
-}
-
-.masthead,
-.aboutme {
-  max-width: 1400px;
-}
-
-.section__title {
-  color: var(--clr-orange);
-  font-size: 1.7rem;
-  font-weight: 900;
 }
 
 /***** MEDIA QUERIES *****/
 @media screen and (min-width: 481px) {
-  .hero__title > span {
-    display: inline;
-  }
-
-  .masthead__brand {
-    font-size: 1.6rem;
-  }
-
-  .hero__btn {
-    width: 200px;
-    height: 50px;
-  }
-
-  .masthead__nav-link {
-    font-size: 1.2rem;
-  }
+  /*  */
 }
 
 @media screen and (min-width: 769px) {
-  .masthead__nav {
-    display: flex;
-    gap: 25px;
-    opacity: 1;
-    position: unset;
-    right: unset;
-    top: unset;
-    transition: unset;
-    width: auto;
-  }
-
-  .masthead__nav-btn {
-    display: none;
-  }
-
-  .masthead__nav > li {
-    background: none;
-  }
-
-  .masthead__nav-link {
-    color: var(--clr-light);
-  }
-
-  .myskills__grid,
-  .projects__grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
+  /*  */
 }

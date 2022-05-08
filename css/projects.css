@@ -1,51 +1,18 @@
 /* PROJECTS */
 .projects__card {
-  align-items: center;
-  background-color: var(--clr-black);
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  margin: 20px auto;
-  width: 250px;
 }
 
 .projects__card-actions {
-  margin-block: 20px;
-  display: flex;
-  gap: 10px;
-  justify-content: space-between;
 }
 
 .projects__card-btn {
-  align-items: center;
-  background: var(--clr-orange);
-  border: none;
-  border-radius: 10px;
-  color: var(--clr-light);
-  display: flex;
-  font-size: 1rem;
-  font-weight: bold;
-  justify-content: center;
-  text-decoration: none;
-  width: 100px;
-  height: 30px;
 }
 
 .projects__card-img {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  height: 150px;
-  width: 100%;
 }
 
 .projects__card-title {
-  color: var(--clr-light);
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-block: 10px;
 }
 
 .projects__card-techstack {
-  color: var(--clr-light);
-  font-style: italic;
 }
