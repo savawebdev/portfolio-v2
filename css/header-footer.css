@@ -24,6 +24,10 @@
   color: var(--clr-orange);
 }
 
+.masthead__nav-btn {
+  color: var(--clr-light);
+}
+
 .masthead__nav {
   position: absolute;
   right: -100%;
