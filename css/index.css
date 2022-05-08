@@ -40,15 +40,22 @@ body {
 }
 
 .aboutme__content,
-.masthead__content {
+.masthead__content,
+.myskills__content {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.aboutme__content,
+.myskills__content {
+  padding: 40px 20px;
 }
 
 .section__title {
   color: var(--clr-orange);
   font-size: 1.7rem;
   font-weight: bold;
+  text-align: center;
 }
 
 /***** MEDIA QUERIES *****/
@@ -66,10 +73,7 @@ body {
 }
 
 @media screen and (min-width: 769px) {
-  .aboutme__content {
-    padding-block: 100px;
-  }
-  .aboutme__content > div {
+  /* .aboutme__content > div {
     align-items: center;
     flex-direction: row;
     gap: 60px;
@@ -78,10 +82,11 @@ body {
 
   .aboutme__img {
     margin: 0;
-  }
+  } */
 
   .aboutme__text {
     font-size: 1.1rem;
+    margin-inline: auto;
     width: 60%;
   }
 
@@ -101,6 +106,10 @@ body {
 
   .masthead__nav-btn {
     display: none;
+  }
+
+  .myskills__grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 

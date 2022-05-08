@@ -1,7 +1,4 @@
 /***** ABOUT ME *****/
-.aboutme__content {
-  padding: 40px 20px;
-}
 
 .aboutme__content > div {
   display: flex;

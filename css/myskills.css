@@ -1,6 +1,13 @@
 /***** MY SKILLS *****/
+.myskills__grid {
+  display: grid;
+  margin-top: 20px;
+}
+
 .myskills__languages,
 .myskills__frameworks {
+  text-align: center;
+  margin-block: 20px;
 }
 
 .myskills__languages > i,
@@ -29,6 +36,7 @@
 }
 
 .myskills__skill {
+  margin-block: 10px;
 }
 
 .myskills__tailwind {
@@ -37,4 +45,7 @@
 }
 
 .myskills__title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 10px;
 }
