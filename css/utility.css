@@ -1,0 +1,17 @@
+/* Font Colors */
+.fc-black {
+  color: var(--clr-black);
+}
+
+.fc-light {
+  color: var(--clr-light);
+}
+
+/* Background Colors */
+.bg-black {
+  background-color: var(--clr-black);
+}
+
+.bg-light {
+  background-color: var(--clr-light);
+}

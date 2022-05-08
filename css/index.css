@@ -3,6 +3,9 @@
 /***** CSS RESET *****/
 @import "./reset.css";
 
+/***** UTILITY CLASSES *****/
+@import "./utility.css";
+
 /***** CUSTOM PROPERTIES *****/
 :root {
   /* Colors */
@@ -17,9 +20,14 @@
 
 /***** UNIVERSAL STYLES *****/
 body {
-  background: var(--clr-black);
   font-family: "Lato", sans-serif;
   position: relative;
+}
+
+.aboutme,
+.myskills,
+.projects {
+  padding: 20px;
 }
 
 .hidden {
@@ -35,10 +43,6 @@ body {
   color: var(--clr-orange);
   font-size: 1.7rem;
   font-weight: 900;
-}
-
-.section__title > span {
-  color: var(--clr-black);
 }
 
 /***** HEADER *****/
@@ -173,11 +177,6 @@ body {
 }
 
 /***** ABOUT ME *****/
-.aboutme {
-  background: var(--clr-light);
-  padding: 20px;
-}
-
 .aboutme__img {
   display: block;
   margin: 0 auto;
