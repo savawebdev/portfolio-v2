@@ -24,9 +24,7 @@
 /***** CUSTOM PROPERTIES *****/
 :root {
   /* Colors */
-  /* --clr-bg-color: #312f2f; */
   --clr-light: #f6e8ea;
-  /* --clr-rose: #ef626c; */
   --clr-orange: #f24c00;
   --clr-black: #22181c;
   --clr-linkedin-blue: #0072b1;
@@ -34,6 +32,9 @@
 }
 
 /***** UNIVERSAL STYLES *****/
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Lato", sans-serif;
   /* position: relative; */
@@ -50,7 +51,7 @@ body {
 .aboutme__content,
 .myskills__content,
 .projects__content {
-  padding: 40px 20px;
+  padding: 100px 20px;
 }
 
 .section__title {
@@ -99,10 +100,7 @@ body {
     display: none;
   }
 
-  .myskills__grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
+  .myskills__grid,
   .projects__grid {
     grid-template-columns: repeat(2, 1fr);
     max-width: fit-content;
