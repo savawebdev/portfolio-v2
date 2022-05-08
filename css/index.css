@@ -39,9 +39,16 @@ body {
   /* position: relative; */
 }
 
+.aboutme__content,
 .masthead__content {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.section__title {
+  color: var(--clr-orange);
+  font-size: 1.7rem;
+  font-weight: bold;
 }
 
 /***** MEDIA QUERIES *****/
@@ -59,6 +66,25 @@ body {
 }
 
 @media screen and (min-width: 769px) {
+  .aboutme__content {
+    padding-block: 100px;
+  }
+  .aboutme__content > div {
+    align-items: center;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+  }
+
+  .aboutme__img {
+    margin: 0;
+  }
+
+  .aboutme__text {
+    font-size: 1.1rem;
+    width: 60%;
+  }
+
   .masthead__nav {
     background: none;
     left: unset;
