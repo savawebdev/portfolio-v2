@@ -137,9 +137,11 @@ body {
 
 .hero__social-box {
   align-items: center;
+  color: var(--clr-black);
   display: flex;
   height: 40px;
   justify-content: center;
+  text-decoration: none;
   width: 40px;
 }
 
