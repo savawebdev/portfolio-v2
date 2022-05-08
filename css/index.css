@@ -294,6 +294,16 @@ body {
   font-style: italic;
 }
 
+/***** FOOTER *****/
+.footer {
+  align-items: center;
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 100px;
+  justify-content: center;
+}
+
 /***** MEDIA QUERIES *****/
 @media screen and (min-width: 481px) {
   .hero__title > span {
