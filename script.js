@@ -12,3 +12,19 @@ const exploreBtn = document.querySelector(".hero__btn");
 exploreBtn.addEventListener("click", () => {
   window.location = "#aboutme";
 });
+
+// Socials hover effects
+
+// const socialBoxes = document.querySelectorAll(".hero__social-box");
+
+// socialBoxes.forEach((box) => {
+//   if (window.innerWidth >= 1025) {
+//     box.addEventListener("mouseenter", () => {
+//       box.style.width = "100px";
+//     });
+
+//     box.addEventListener("mouseleave", () => {
+//       box.style.width = "60px";
+//     });
+//   }
+// });
